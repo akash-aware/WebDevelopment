@@ -1,0 +1,118 @@
+.navbar{
+    position: fixed;
+    width:100vw;
+}
+
+
+#logo{
+    height: 50px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: rgb(222 24 24);
+}
+.info {
+    margin-left: 39px;
+    margin-top: 84px;
+    display: flex;
+    flex-direction: column;
+    width: 381px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner img{
+    height: 272px;
+    width: 463px;
+    margin-top: 88px;
+    margin-left: 176px;
+}
+
+#service{
+    
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.services{
+    /* margin-left: 78px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.service-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-left: 69px;
+    border: 2px solid red;
+    height: 213px;
+    width: 278px;
+    align-items: center;
+}
+
+.view-all img{
+    height: 137px;
+    margin-bottom: 20px;
+    margin-top: 6px;
+}
+
+.view{
+    text-align: center;
+    
+}
+
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient( -225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100% );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    /* font-size: 7rem; */
+}
+
+@keyframes textclip {
+    100%{
+    background-position: 200% center;
+    }
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.bank-intro{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@media (max-width:1200px){
+    .banner img {
+    height: 272px;
+    width: 360px;
+    margin-top: 88px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    
+}  
