@@ -4,6 +4,7 @@ Basic Banking System
 
 This is the basic banking web application which is money transaction page. This is simply transfer the money from one account to another bank account. It has also option to see the all account details.
 
+The app.js is the main express appliction program. Where you find the routes to the each page. For the working of this project we have to create a database for more details refer database section
 
 ## Screenshots
 ![Homepage](https://user-images.githubusercontent.com/103283433/225957107-528a332f-b06d-4b9d-905e-ed25d324da24.PNG)
