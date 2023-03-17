@@ -6,6 +6,12 @@ This is the basic banking web application which is money transaction page. This 
 
 The app.js is the main express appliction program. Where you find the routes to the each page. For the working of this project we have to create a database for more details refer database section
 
+## Working Video
+[screen-capture.webm](https://user-images.githubusercontent.com/103283433/225963411-09861b35-fb11-433c-a559-99b0892d6588.webm)
+
+
+
+
 ## Screenshots
 ![Homepage](https://user-images.githubusercontent.com/103283433/225957107-528a332f-b06d-4b9d-905e-ed25d324da24.PNG)
 ![newAccount](https://user-images.githubusercontent.com/103283433/225957715-c92ff39d-a5c5-47dc-a6f8-9b57fc0281b4.PNG)
